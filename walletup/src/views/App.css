@@ -1,0 +1,16 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+
+}
+.content {
+    display: flex;
+    text-align: center;
+}
