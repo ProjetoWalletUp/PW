@@ -1,22 +1,76 @@
-.Home{
-    display: flex;
-    justify-content: center;
-}
-
 div.Container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-family: Campton,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 95%;
+    font-size: 200%;
     color: #fff;
     text-decoration: none;
 }
 
-div.box1{
+div.Container1{
+    display: flex;
+    background-color: #45BF55;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    text-align: center;
+    padding: 5%;
+}   
+
+div.box1.h1{
+    font-size: 250%;
+}
+div.box1.h2{
+    font-size: 150;
+}
+
+div.box1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+}
+
+div.box2{
+    display: flex;
+    width: 50%;
+}
+
+div.box3{
+    background-color: #2A2C2D;;
+    padding: 5%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 800px){
+    div.Container1{
+        display: flex;
+        background-color: #121212;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0%;
+    }
+    div.box1.h1{
+        font-size: 75%;
+    }
+    div.box1.h2{
+        font-size: 10%;
+    }
+    div.box1{
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 0;
+        text-align: left;
+    }
+    div.box2{
+        display: flex;
+        padding:0% 20% 5%;
+    }
+    div.box3{
+        padding: 10%;
+        
+    }
 }

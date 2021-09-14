@@ -1,15 +1,17 @@
 import React from "react"
 import "./Home.css"
-import foto from "./assets/Box2.jpg"
+import foto from "./assets/Box2.svg"
 
 const Home = props => (
     <div className="Container">
+        <div className="Container1">
         <div className="box1">
-            <title>Bem Vindo a WalletUp</title>
-             Simule e gerencie seus investimentos em fundos imobiliarios, descubra seus divindendos 
+            <h1>Bem Vindo a WalletUp</h1>
+            <h2>Simule e gerencie seus investimentos em fundos imobiliarios, descubra seus divindendos</h2> 
         </div>
         <div className="box2">
-            <img src={foto} alt="foto" height="200" />
+            <img src={foto} alt="foto" height="100%" />
+        </div>
         </div>
         <div className="box3">
             A walletUp esta focada em te ajudar a ter acesso a investimentos em fundos imobiliarios, deixe conosco, apenas nos de os dados do seu 

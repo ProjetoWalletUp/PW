@@ -6,7 +6,7 @@ import logo from './WalletUpLogo.jpg'
 const Menu = props => (
     <aside className='Menu'>
         <nav>
-            <div className='logo'><Link to="/"><img src={logo} alt="logo" height="100" /></Link></div>
+            <div className='logo'><Link to="/"><img src={logo} alt="logo" height="40vh" /></Link></div>
             <ul>
                 <li>
                     <Link to="/">Home</Link>
@@ -16,9 +16,6 @@ const Menu = props => (
                 </li>
                 <li>
                     <Link to="/conteudo02">Sobre</Link>
-                </li>
-                <li>
-                    <Link to="/conteudo03">Contate-nos</Link>
                 </li>
                 <li>
                     <Link to="/conteudo04">Login</Link>
