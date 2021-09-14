@@ -1,11 +1,12 @@
 import './Menu.css'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from './WalletUpLogo.jpg'
 
 const Menu = props => (
     <aside className='Menu'>
         <nav>
-            <div className='logo'>Logo</div>
+            <div className='logo'><Link to="/"><img src={logo} alt="logo" height="100" /></Link></div>
             <ul>
                 <li>
                     <Link to="/">Home</Link>

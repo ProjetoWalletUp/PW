@@ -2,5 +2,8 @@
     display: flex;
     justify-content: center;
     height: 90vh;
-    background-color: darkblue;
+    background-color: #45BF55;
+    font-family: Campton,sans-serif;
+    font-weight: bold;
+    font-size: 125%;
 }

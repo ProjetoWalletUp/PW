@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #121212;
-    height: 10%;
+    height: 20%;
     width: 100%;
     }
 
@@ -11,7 +11,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 3.125vw 9.375vw;
+        padding: 1% 1%;
         top: 0;
         right: 0;
         left: 0;
@@ -19,20 +19,20 @@
 
     ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 50%;
     }
   
     li {
         display: flex;
+        
     }
     
     a {
-        width: 100%;
-        height: 100%;
+        
         font-family: Campton,sans-serif;
         font-weight: bold;
-        font-size: 125%;
+        font-size: 95%;
         color: #fff;
         text-decoration: none;
     }
