@@ -18,11 +18,12 @@ div.Container1{
     padding: 5%;
 }   
 
-div.box1.h1{
-    font-size: 250%;
+div.HeadTitle{
+    padding-top: 10%;
+    font-size: 350%;
 }
-div.box1.h2{
-    font-size: 150;
+div.HeadText{
+    font-size: 150%;
 }
 
 div.box1{
@@ -67,7 +68,7 @@ img.foto{
 }
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
     div.Container1{
         display: flex;
         background-color: #121212;
@@ -77,11 +78,11 @@ img.foto{
         width: 100%;
         padding: 0%;
     }
-    div.box1.headText{
-        font-size: 75%;
+    div.HeadTitle{
+        font-size: 150%;
     }
-    div.box1.h{
-        font-size: 10%;
+    div.HeadText{
+        font-size: 75%;
     }
     div.box1{
         width: 80%;
@@ -91,10 +92,10 @@ img.foto{
     }
     div.box2{
         display: flex;
-        padding:0% 20% 5%;
+        padding:10% 20% 5%;
     }
     div.box3{
-        font-size: 75%;
+        font-size: 100%;
     }
     p{
         padding: 3%;
@@ -107,6 +108,12 @@ img.foto{
     }
     img.home{
         height: 100px;
+        width: fit-content;
+    }
+}
+@media only screen and (max-width: 320px){
+    img.home{
+        height: 70px;
         width: fit-content;
     }
 }
