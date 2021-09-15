@@ -1,6 +1,7 @@
 .App {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     text-align: center;
     height: 100%;
     width: 100%;
@@ -12,6 +13,10 @@
 
 }
 .content {
+    display: flex;
+    text-align: center;
+}
+.Footer{
     display: flex;
     text-align: center;
 }
