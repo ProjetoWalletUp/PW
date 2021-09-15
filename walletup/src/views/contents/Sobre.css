@@ -1,5 +1,53 @@
-h1.Sobre{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;
+div.ContainerSobre{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 5%;
+}
 
+img.Sobre{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    padding: 1%;
+}
+
+div.TextoSobre{
+    display: flex;
+    flex-direction: row;
+    padding: 30% 5% 5% 5%;
+}
+
+h1.Sobre{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-align: left;
+    height: 50%;
+    width: 50%;
+    padding: 1%;
+    margin-top: 0%;
+}
+
+img.FotoTexto{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 900px) {
+    h1.Sobre{
+        display: flex;
+        font-size: 125%;
+        
+    }
+    
+    img.FotoTexto{
+        display: flex;
+        height: 50%;
+        width: 50%;
+        padding: 1%;
+    }
+    
 }
