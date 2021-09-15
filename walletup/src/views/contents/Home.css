@@ -36,12 +36,36 @@ div.box2{
     display: flex;
     width: 50%;
 }
+div.Container2{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    background-color: #2A2C2D;
 
-div.box3{
-    background-color: #2A2C2D;;
-    padding: 5%;
-    text-align: left;
 }
+div.box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1% 1% 5% 1%;
+    text-align: justify;
+}
+p{
+    padding: 3%;
+    font-size: 70%;
+}
+div.fotos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+img.home{
+    height: 150px;
+}
+img.foto{
+    height: fit-content;
+}
+
 
 @media only screen and (max-width: 800px){
     div.Container1{
@@ -53,10 +77,10 @@ div.box3{
         width: 100%;
         padding: 0%;
     }
-    div.box1.h1{
+    div.box1.headText{
         font-size: 75%;
     }
-    div.box1.h2{
+    div.box1.h{
         font-size: 10%;
     }
     div.box1{
@@ -70,7 +94,19 @@ div.box3{
         padding:0% 20% 5%;
     }
     div.box3{
-        padding: 10%;
-        
+        font-size: 75%;
+    }
+    p{
+        padding: 3%;
+        font-size: 50%;
+    }
+    div.fotos{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5%;
+    }
+    img.home{
+        height: 100px;
+        width: fit-content;
     }
 }
