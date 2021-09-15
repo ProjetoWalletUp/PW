@@ -12,13 +12,13 @@ const Menu = props => (
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/conteudo01">Carteira</Link>
+                    <Link to="/Carteira">Carteira</Link>
                 </li>
                 <li>
-                    <Link to="/conteudo02">Sobre</Link>
+                    <Link to="/Sobre">Sobre</Link>
                 </li>
                 <li>
-                    <Link to="/conteudo04">Login</Link>
+                    <Link to="/Login">Login</Link>
                 </li>
             </ul>
         </nav>
