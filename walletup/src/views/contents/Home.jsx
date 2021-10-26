@@ -5,7 +5,7 @@ import foto1 from "./assets/image1.svg"
 import foto2 from "./assets/image2.svg"
 
 const Home = props => (
-    <div className="Container">
+    <div className="ContainerHome">
         <div className="Container1">
             <div className="box1">
                 <div className="HeadTitle">Bem Vindo a WalletUp</div>
