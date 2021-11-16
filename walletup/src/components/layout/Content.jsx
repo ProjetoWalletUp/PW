@@ -1,6 +1,6 @@
 import './Content.css'
 import React from "react"
-import { Switch, Route } from 'react-router-dom'
+import { Switch , Route } from 'react-router-dom'
 import Home from '../../views/contents/Home'
 import Sobre from '../../views/contents/Sobre'
 import NaoEncontrado from '../../views/contents//NaoEncontrado'

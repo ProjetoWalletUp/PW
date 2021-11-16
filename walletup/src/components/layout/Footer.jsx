@@ -38,7 +38,7 @@ const Footer = () => {
             <h6 className="text-uppercase font-weight-bold">
               <strong>Wallet Up</strong>
             </h6>
-            <hr className=" accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px", backgroundcolor: "red" }} />
+            <hr className=" black accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px", backgroundcolor: "red" }} />
             <p>
             O projeto nasceu com o objetivo de ajudar a democratizar o mundo dos investimentos em fundos imobiliarios.
             tendo em vista que uma parte consideravel da população não investe por falta de conhecimento financeiro.
@@ -50,7 +50,7 @@ const Footer = () => {
             <h6 className="text-uppercase font-weight-bold">
               <strong>Products</strong>
             </h6>
-            <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+            <hr className="black accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
               <a href="#!">MDBootstrap</a>
             </p>
@@ -68,7 +68,7 @@ const Footer = () => {
             <h6 className="text-uppercase font-weight-bold">
               <strong>Useful links</strong>
             </h6>
-            <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+            <hr className="black accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
               <a href="#!">Your Account</a>
             </p>
@@ -86,7 +86,7 @@ const Footer = () => {
             <h6 className="text-uppercase font-weight-bold">
               <strong>Contact</strong>
             </h6>
-            <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
+            <hr className="black accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
               <i className="fa fa-home mr-3" /> New York, NY 10012, US
             </p>
