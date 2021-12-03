@@ -3,10 +3,10 @@ div.ContainerHome{
     justify-content: center;
     flex-wrap: wrap;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
     font-size: 200%;
     color: #fff;
     text-decoration: none;
+    width: 100%;
 }
 
 div.Container1{
@@ -17,6 +17,10 @@ div.Container1{
     width: 100%;
     padding: 5%;
 }   
+
+div.Container2{
+    width: 100%;
+}
 
 div.HeadTitle{
     padding-top: 1%;
@@ -72,8 +76,44 @@ img.foto{
     width: 70%;
 }
 
+@media only screen and (max-width: 425px){
+    div.Container1{
+        display: flex;
+        background-color: #121212;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0%;
+    }
+    div.HeadTitle{
+        font-size: 75%;
+    }
+    div.HeadText{
+        font-size: 50%;
+    }
+    div.box1{
+        width: 80%;
+        text-align: left;
+    }
+    div.box3{
+        font-size: 55%;
+    }
+    p{
+        padding: 3%;
+        font-size: 50%;
+    }
+    div.fotos{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5%;
+    }
+    img.home{
+        height: 0px;
+    }
+}
 
-@media only screen and (max-width: 900px){
+@media only screen and (min-width: 426px) and (max-width: 900px){
     div.Container1{
         display: flex;
         background-color: #121212;
@@ -100,7 +140,7 @@ img.foto{
         padding:10% 20% 5%;
     }
     div.box3{
-        font-size: 100%;
+        font-size: 65%;
     }
     p{
         padding: 3%;
