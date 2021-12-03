@@ -9,16 +9,16 @@ const Menu = props => (
             <div className='logo'><Link to="/"><img src={logo} alt="logo" className="logo" height="40vh" /></Link></div>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/">HOME</Link>
                 </li>
                 <li>
-                    <Link to="/Carteira">Carteira</Link>
+                    <Link to="/Carteira">CARTEIRA</Link>
                 </li>
                 <li>
-                    <Link to="/Sobre">Sobre</Link>
+                    <Link to="/Sobre">SOBRE</Link>
                 </li>
                 <li>
-                    <Link to="/Login">Login</Link>
+                    <Link to="/Login">LOGIN</Link>
                 </li>
             </ul>
         </nav>

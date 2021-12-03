@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-
+import './Footer.css'
 const Footer = () => {
   return (
     <MDBFooter style={{ backgroundColor: "#379944" }} className="page-footer font-small pt-0">
@@ -14,7 +14,7 @@ const Footer = () => {
             </MDBCol>
             <MDBCol md="6" lg="7" className="text-center text-md-right">
               <a className="fb-ic ml-0">
-                <i className="fab fa-facebook-f white-text mr-lg-4"> </i>
+                <i className="fab fa-facebook-f white-text mr-lg-4"></i>
               </a>
               <a className="tw-ic">
                 <i className="fab fa-twitter white-text mr-lg-4"> </i>
@@ -38,72 +38,33 @@ const Footer = () => {
             <h6 className="text-uppercase font-weight-bold">
               <strong>Wallet Up</strong>
             </h6>
-            <hr className=" black accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px", backgroundcolor: "red" }} />
-            <p>
+            <hr className="black accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px", backgroundcolor: "red" }} />
+            <p className="ftext">
             O projeto nasceu com o objetivo de ajudar a democratizar o mundo dos investimentos em fundos imobiliarios.
             tendo em vista que uma parte consideravel da população não investe por falta de conhecimento financeiro.
             O intuito do projeto e realizar os calculos e as projeções que envolvem a compra de uma FII, dessa maneira,
             tornando o processo mais pratico e rapido, mas principalmente, mais acessivel.
             </p>
           </MDBCol>
-          <MDBCol md="2" lg="2" xl="2" >
-            <h6 className="text-uppercase font-weight-bold">
-              <strong>Products</strong>
-            </h6>
-            <hr className="black accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
-            <p>
-              <a href="#!">MDBootstrap</a>
-            </p>
-            <p>
-              <a href="#!">MDWordPress</a>
-            </p>
-            <p>
-              <a href="#!">BrandFlow</a>
-            </p>
-            <p>
-              <a href="#!">Bootstrap Angular</a>
-            </p>
-          </MDBCol>
-          <MDBCol md="3" lg="2" xl="2" >
-            <h6 className="text-uppercase font-weight-bold">
-              <strong>Useful links</strong>
-            </h6>
-            <hr className="black accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
-            <p>
-              <a href="#!">Your Account</a>
-            </p>
-            <p>
-              <a href="#!">Become an Affiliate</a>
-            </p>
-            <p>
-              <a href="#!">Shipping Rates</a>
-            </p>
-            <p>
-              <a href="#!">Help</a>
-            </p>
-          </MDBCol>
           <MDBCol md="4" lg="3" xl="3" >
             <h6 className="text-uppercase font-weight-bold">
-              <strong>Contact</strong>
+              <strong>Contato</strong>
             </h6>
             <hr className="black accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
-            <p>
-              <i className="fa fa-home mr-3" /> New York, NY 10012, US
+            <p className="ftext">
+              <i className="fa fa-envelope mr-3" /> suporte@walletup.com
             </p>
-            <p>
-              <i className="fa fa-envelope mr-3" /> info@example.com
+            <p className="ftext">
+              <i className="fa fa-phone mr-3" /> +55 12345-6789
             </p>
-            <p>
-              <i className="fa fa-phone mr-3" /> + 01 234 567 88
-            </p>
-            <p>
-              <i className="fa fa-print mr-3" /> + 01 234 567 89
+            <p className="ftext">
+              <i className="fa fa-print mr-3" /> +55 12345-6789
             </p>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
       <div className="text-center py-3">
-          &copy; {new Date().getFullYear()}
+         &copy; Wallet Up - Todos os direitos reservados 
       </div>
     </MDBFooter>
   );

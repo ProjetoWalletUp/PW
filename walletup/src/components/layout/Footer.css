@@ -13,3 +13,9 @@ h1{
   height: 20%;
   padding-top: 3%;
 }
+.ftext{
+  font-size: 80%;
+}
+div{
+  justify-content: space-around;
+}

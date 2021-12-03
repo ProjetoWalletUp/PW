@@ -1,53 +1,128 @@
 div.ContainerSobre{
     display: flex;
-    flex-direction: column;
-    width: 90%;
-    padding: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 200%;
+    text-decoration: none;
 }
 
-img.Sobre{
+div.Container5{
     display: flex;
-    height: 50%;
+    background-color: #45BF55;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
-    padding: 1%;
+    color: rgb(255, 255, 255);
+    padding: 5%;
+}   
+
+div.TitleText{
+    padding-top: 1%;
+    font-size: 180%;
+    text-shadow: 1px 1px black;
+    padding-left: 5%;
+}
+div.SobreText{
+    font-size: 50%;
+    text-shadow: 1px 1px black;
+    padding-left: 5%;
 }
 
-div.TextoSobre{
+div.box5{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+}
+
+div.box6{
+    display: flex;
+    width: 45%;
+}
+div.Container4{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    background-color: #303030;
+
+}
+div.box3{
     display: flex;
     flex-direction: row;
-    padding: 1%;
+    justify-content: space-around;
+    padding: 1% 1% 1% 1%;
+    text-align: justify;
 }
-
-h1.Sobre{
+p{
+    padding: 3%;
+    font-size: 50%;
+}
+div.fotos{
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 200%;
-    text-align: left;
-    height: 50%;
-    width: 50%;
-    padding: 5%;
-    margin-top: 0%;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+img.home{
+    height: 150px;
+}
+img.foto{
+    width: 70%;
+}
+img.fota{
+    width: 10%;
 }
 
-img.FotoTexto{
-    display: flex;
-    height: 50%;
-    width: 50%;
-    padding: 1%;
-}
 
-@media only screen and (max-width: 900px) {
-    h1.Sobre{
+@media only screen and (max-width: 900px){
+    div.Container1{
         display: flex;
-        font-size: 125%;
-        
+        background-color: #121212;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        padding: 0%;
     }
-    
-    img.FotoTexto{
+    div.HeadTitle{
+        font-size: 150%;
+    }
+    div.HeadText{
+        font-size: 75%;
+    }
+    div.box1{
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 0;
+        text-align: left;
+    }
+    div.box2{
         display: flex;
-        height: 50%;
-        width: 50%;
-        padding: 1%;
+        padding:10% 20% 5%;
     }
-    
+    div.box3{
+        font-size: 100%;
+    }
+    p{
+        padding: 3%;
+        font-size: 50%;
+    }
+    div.fotos{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5%;
+    }
+    img.home{
+        height: 100px;
+        width: fit-content;
+    }
+}
+@media only screen and (max-width: 320px){
+    img.home{
+        height: 70px;
+        width: fit-content;
+    }
 }

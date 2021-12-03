@@ -4,6 +4,7 @@ import { Switch , Route } from 'react-router-dom'
 import Home from '../../views/contents/Home'
 import Sobre from '../../views/contents/Sobre'
 import NaoEncontrado from '../../views/contents//NaoEncontrado'
+import Login from '../../views/contents/Login'
 
 const Content = props => (
     <main className="Content">

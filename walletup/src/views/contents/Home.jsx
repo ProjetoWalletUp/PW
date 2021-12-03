@@ -9,7 +9,7 @@ const Home = props => (
         <div className="Container1">
             <div className="box1">
                 <div className="HeadTitle">Bem Vindo a WalletUp</div>
-                <div className="HeadText">Simule e gerencie seus investimentos em fundos imobiliarios, calcule o valor de seus divindendos</div> 
+                <div className="HeadText">Simule seus investimentos em fundos imobiliarios e calcule o valor de seus dividendos.</div> 
             </div>
             <div className="box2">
                 <img src={foto} alt="foto" className="foto"/>
