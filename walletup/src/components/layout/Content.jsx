@@ -5,6 +5,7 @@ import Home from '../../views/contents/Home'
 import Sobre from '../../views/contents/Sobre'
 import NaoEncontrado from '../../views/contents//NaoEncontrado'
 import Login from '../../views/contents/Login'
+import Carteira from '../../views/contents/Carteira'
 
 const Content = props => (
     <main className="Content">
@@ -14,6 +15,9 @@ const Content = props => (
             </Route>
             <Route path="/Sobre">
                 <Sobre />
+            </Route>
+            <Route path="/Carteira">
+                <Carteira />
             </Route>
             <Route path="/Login">
                 <Login />
