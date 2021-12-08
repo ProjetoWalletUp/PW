@@ -1,3 +1,20 @@
 .ContainerCarteira{
     margin: 13% 0%;
 }
+div.ContainerCarteira1{
+    display: flex;
+    background-color: #45BF55;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5%;
+}   
+div.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+}
+div.FormCarteira{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}

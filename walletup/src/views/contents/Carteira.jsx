@@ -5,9 +5,10 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 
 const Carteira = props => (
 
+  <div className="ContainerCarteira1">
     <div className="ContainerCarteira">
-        <div className="ContainerHeader">
-            Descubra aqui seus Dividendos
+        <div className="text2">
+            Simule aqui seus dividendos
         </div>
         <div className="FormCarteira">
             <FII />
@@ -20,23 +21,23 @@ const Carteira = props => (
         </div>
 
     </div>
-
+  </div>
 )
 export default Carteira
 
 function FII () {
     return (
-      <MDBInput label='Fundo Imobiliario' id='typeNumber' type='number'/>
+      <MDBInput classname="textos" label='Fundo Imobiliario' id='typeNumber' type='number'/>
     );
 }
 function Preco () {
     return (
-      <MDBInput label='Preco' id='typeNumber' type='number' />
+      <MDBInput classname="textos" label='Preço' id='typeNumber' type='number' />
     );
 }
 function Meses () {
     return (
-      <MDBInput label='Meses' id='typeNumber' type='number' />
+      <MDBInput classname="textos" label='Meses' id='typeNumber' type='number' />
     );
 }
 

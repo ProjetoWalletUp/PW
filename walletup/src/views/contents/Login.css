@@ -4,7 +4,15 @@
       width: 100%;
       height: 60%;
     }
-  
+    div.ContainerLogin{
+      display: flex;
+      background-color: #303030;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      color: rgb(255, 255, 255);
+      padding: 5%;
+    }   
     .Login form {
       margin: 0 auto;
       max-width: 320px;

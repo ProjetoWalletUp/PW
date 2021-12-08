@@ -49,6 +49,11 @@ div.Container4{
     background-color: #303030;
 
 }
+div.Title{
+    font-size: 180%;
+    text-shadow: 1px 1px black;
+    padding-left: 5%;
+}
 div.box3{
     display: flex;
     flex-direction: row;
@@ -74,6 +79,7 @@ img.foto{
 }
 img.fota{
     width: 10%;
+    border: 1%;
 }
 
 
